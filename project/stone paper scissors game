@@ -1,0 +1,6 @@
+import random
+user_choosen = input("Enter Your Choice (rock, paper,scissors):")
+possible_choosen=["rock","paper","scissors"]
+computer_choosen=random.choice(possible_choosen)
+print(f"\nYou choice{user_choosen},computer choice{computer_choosen}.\n")
+
